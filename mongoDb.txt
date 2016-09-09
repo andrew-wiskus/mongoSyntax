@@ -2,7 +2,7 @@
   db.createCollection('orders')
 
 2.Insert at least 3 documents that represent an order. IMPORTANT: See section below for fields.
-  1)orders.insert({
+  orders.insert({
   "orderDate": new Date('May 23,2016'),
   "orderTotal": 100.00,
   "lineItems":[{
@@ -12,7 +12,7 @@
   }]
   })
 
-  2)orders.insert({
+  orders.insert({
     "orderDate": new Date('January 20,2016'),
     "orderTotal": 200.00,
     "lineItems":[{
@@ -22,7 +22,7 @@
     }]
   })
 
-  3)orders.insert({
+  orders.insert({
     "orderDate": new Date('December 25,2016'),
     "orderTotal": 500.00,
     "lineItems":[{
